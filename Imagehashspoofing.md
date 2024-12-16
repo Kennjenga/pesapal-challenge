@@ -27,10 +27,10 @@ The tool allows users to generate an altered version of an image that:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/image-hash-spoofer.git
+git clone https://github.com/Kennjenga/pesapal-challenge.git
 
 # Navigate to project directory
-cd image-hash-spoofer
+cd pesapal-challenge
 
 # Create virtual environment
 python3 -m venv menv
@@ -44,10 +44,10 @@ pip install numpy Pillow
 
 ```bash
 # Basic syntax
-python image_hash_spoofer.py <target_prefix> <input_image> <output_image>
+python main.py <target_prefix> <input_image> <output_image>
 
 # Example
-python image_hash_spoofer.py 0x24 original.jpg altered.jpg
+python main.py 0x24 original.jpg altered.jpg
 ```
 
 ## Verification
